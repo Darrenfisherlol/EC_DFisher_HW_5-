@@ -38,10 +38,17 @@
 
             <p id="changeContent">This HTML paragraph contnet will change.</p>
 
+            <p class="name">freeCodeCamp</p>
+
+            <button onclick="changeContent()">Change paragraoh content</button>
+
             <script>
 
-                <button type="button" onclick='document.getElementById("changeContent").innerHTML = "it changed!"'>Click to change!</button>
-            
+                function changeContent() 
+                {
+
+                    document.getElementById("changeContent").innerHTML = "it changed!"
+                }
             </script>
 
         </div>
