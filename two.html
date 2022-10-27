@@ -38,11 +38,20 @@
             
             <p id="change">this html paragraph will change size.</p>
 
+
+            <button onclick="changeContent()">Change paragraoh content</button>
+
             <script>
 
-                <button type="button" onclick="document.getElementById('change').style.fontSize='200px'">Click to change font!</button>
+                function changeContent() 
+                {
+
+                    document.getElementById('change').style.fontSize='200px'
+
+                }
 
             </script>
+
 
         </div>
 

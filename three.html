@@ -34,14 +34,19 @@
         </div>
 
         <!-- Function One-->
-        <div>
+        <div id="test" >
 
-            <p id="backgroun">Wow this website has a cool color... or does it?.</p>
+            <p id="background">Wow this website has a cool color... or does it?.</p>
+
+            <button onclick="changeContent()">Change paragraoh content</button>
 
             <script>
 
-                <button type="button" onclick="document.getElementById('demo').style.background='blue'">Change background color!</button>
-                
+                function changeContent() 
+                {
+                    document.getElementById('test').style.background='blue'
+                }
+
             </script>
 
         </div>
